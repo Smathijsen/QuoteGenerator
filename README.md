@@ -1,7 +1,18 @@
-# tutorialapp
+# QuoteGenerator
 
-> Vue.js tutorialcode (tutorial: Max Schwarzmüller)
+> Vue.js Quote Generator
 
+This application fetches random quotes from <http://quotes.stormconsultancy.co.uk/api​>
+
+A page refresh will result in a new quote being shown. 
+
+The ```SocialMedia.vue ``` component uses ```vue-social-sharing ``` to create the links to the different social media networks. 
+
+The quote is included into the message of each social media platform.
+
+It uses [Font Awesome](https://fontawesome.com/) to style the buttons.
+
+***
 ## Build Setup
 
 ``` bash
@@ -11,8 +22,4 @@ npm install
 # serve with hot reload at localhost:8080
 npm run dev
 
-# build for production with minification
-npm run build
 ```
-
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
